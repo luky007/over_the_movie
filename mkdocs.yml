@@ -13,18 +13,12 @@ theme:
     - content.code.copy
   language: en
   palette:
-    - scheme: default
-      toggle:
-        icon: material/toggle-switch-off-outline 
-        name: Switch to dark mode
-      primary: deep purple
-      accent: purple 
     - scheme: slate 
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode    
       primary: deep purple
-      accent: lime
+      accent: purple
+  icon:
+    admonition:
+      note: octicons/tag-16
 
 plugins:
     - mermaid2

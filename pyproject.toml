@@ -15,7 +15,8 @@ types-tqdm = "^4.66.0.20240106"
 [tool.poetry.group.dev.dependencies]
 mkdocs = "^1.5.3"
 mkdocs-material = {extras = ["imaging"], version = "^9.5.6"}
-mkdocstrings = "^0.24.0"
+mkdocstrings = {extras = ["python"], version = "^0.24.0"}
+mkdocs-mermaid2-plugin = "^1.1.1"
 
 [build-system]
 requires = ["poetry-core"]

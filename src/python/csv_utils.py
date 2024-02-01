@@ -17,24 +17,6 @@ def read_csv_movie(path_csv: Path) -> list[Movie]:  # noqa: PLR0915
 
     Returns:
         list[Movie]: a list an Movie object.
-
-    Do these checks on the csv:
-    - Check if there are exactly 3 columns
-    - Check if movie_id is unique
-    - check if movie has a number indicating the year of release
-    - check if year of release is lower than 2024
-    - check if year of release is higher than 1888
-    - check if there at least one genre
-    - check if there repeated genre in the same movie
-    - check if the title exist
-    - check if the original title exist
-    - check if the title and the original title are the same
-    - check if some movies share the same title and year of release
-    - Check if movie exist based on title and year of release
-    - Fix some known typo in the genre
-    - Try to fix the title by removing the last comma
-    - Remove 'a.k.a.' from the original title
-    - Remove second 'a.k.a.' from movie id: 2952
     """
     logger = logging.getLogger(Path(__file__).stem)
     (

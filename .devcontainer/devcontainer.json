@@ -17,7 +17,9 @@
 				"ms-python.mypy-type-checker",
 				"charliermarsh.ruff",
 				"ms-python.pylint",
-				"tamasfe.even-better-toml"
+				"tamasfe.even-better-toml",
+				"mhutchie.git-graph",
+				"donjayamanne.git-extension-pack"
 			]
 		}
 	}
